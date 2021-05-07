@@ -6,6 +6,7 @@
 - Change format of KV offramp responses to a more unified structure.
 - Add `KnownKey::map_*` functions to directly work on the `Value::Object`s inner `HashMap`, if available.
 - Add `HEALTHCHECK` to Dockerfiles
+- Improve printing for dot files
 
 ### Fixes
 
@@ -14,6 +15,7 @@
 - Fix empty record pattern to only match records.
 - Fix ws offramp not reconnecting after connection loss.
 - Run tests in tremor-cli bin
+- Fix false positives in cycle detection
 
 ## 0.11.1
 
